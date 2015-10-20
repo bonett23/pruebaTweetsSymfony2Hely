@@ -1,0 +1,4 @@
+pruebatweets:
+    resource: "@pruebatweetsBundle/Resources/config/routing.yml"
+    prefix:   /
+

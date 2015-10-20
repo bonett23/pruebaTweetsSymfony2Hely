@@ -1,0 +1,7 @@
+pruebatweets_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: pruebatweetsBundle:Default:index }
+
+_tweets:
+    resource: "@pruebatweetsBundle/Controller/DefaultController.php"
+    type:     annotation
